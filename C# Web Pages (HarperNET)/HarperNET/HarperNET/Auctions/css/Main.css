@@ -1,0 +1,2381 @@
+﻿
+/* CSS Document */
+
+body
+{
+	background: url(../images/pagebackground.gif);
+	font: 12px Verdana, Times New Roman, Times, serif; 
+          color: #323232; 
+          line-height: 1.7; 
+          margin: 0px; 
+          padding: 0px; 
+          letter-spacing: .35px;
+}
+
+a:active, a:visited, a:link
+{
+	color: #36c; 
+	text-decoration: none;
+}
+
+
+
+a:hover
+{
+	color: #36c; 
+	text-decoration: underline;
+}
+
+.MainOutsideBorder
+{
+	background-color: #ffffff; 
+	width: 98%;
+	margin: 0 auto;
+	padding: 15px;
+
+}
+
+
+
+
+.MainLeftColumn
+{
+	width: 212px;
+	padding-top:3px;
+	
+}
+
+
+
+
+
+.TopSlogun
+{
+	padding: 18px 25px 18px 25px;
+	text-align: right;
+	text-transform: uppercase;	
+	font-size: 10px;
+	letter-spacing: 3px;
+	color: #302e2e;
+}
+
+h1 {
+	font-family: WhitmanDisplay, Tahoma;
+	font-size: 2.2em; 
+	/* margin-bottom: 0.75em; */ 
+}
+h2 {
+	font-family: WhitmanDisplay, Tahoma;
+	font-size: 1.5em; 
+	 margin-bottom: 0.5em; }
+
+h4
+{
+	font-family: Verdana, serif;
+	font-weight: normal;
+	font-size: 13px;
+	color: #302e2e;
+	letter-spacing: 1px;
+}
+
+.terms
+{
+	font: 14px Verdana;
+	text-transform: uppercase;
+	letter-spacing: 1.2px;
+	color: #36c;
+	font-weight: bold;
+
+}
+
+
+.DefaultContent
+{
+	color: #302e2e;
+	font-family: Verdana, serif;
+	line-height: 1.5em;
+	letter-spacing: 0.35px;
+	margin: 0 0 0.5em 0;
+}
+
+.arrows
+{
+	color: #36c;
+	font-family: Verdana, serif;
+	font-size: 13px;
+	line-height: 170%;
+	margin: 0 0 0.5em 0;
+}
+
+
+.CapContent
+{
+	font-family: Verdana;
+	font-size: 11px;
+	font-weight: bold;
+	line-height: 170%;
+	margin: 0 0 0.5em 0;
+}
+
+.DefaultContentWithItalic
+{
+	color: #302e2e;
+	font-family: Verdana, serif;
+	font-size: 13px;
+	line-height: 170%;
+	margin: 0 0 0.5em 0;
+	font-style:italic
+}
+
+.ConsiderImage
+{
+    margin: 0 0 23px 10px;
+    /*width: 604px;
+    height: 346px;*/
+    padding: 6px 6px 10px 6px;
+    background-image: url(images/picbackground.gif);
+    background-repeat: no-repeat;
+}
+
+.Quote_Div
+{
+	margin-top: 27px;
+	font-size: 10px;
+	font-family: Verdana, serif;
+	line-height: 150%;
+	color: #302e2e;
+	background-image: url(images/topquote.gif);
+	background-repeat: no-repeat;
+}
+
+.Quote_Bold
+{
+	display: block;
+	font-weight: normal;
+	padding-top: 16px;
+	padding-left: 8px;
+}
+
+.Quote_Para
+{
+	text-align: right;
+	height: 50px;
+	margin: 2px 16px 0 0;
+	background-image: url(images/bottomquote.gif);
+	background-repeat: no-repeat;
+}
+
+.Knowledge_Div
+{
+	font-size:10px;
+	font-family: Verdana, serif;
+	line-height: 150%;
+	color: #302e2e;
+	background-image: url(images/knowledgebackground.gif);
+	background-repeat: no-repeat;
+	border-top: 1px solid Verdana;
+	border-left: 1px solid Verdana;
+	border-right: 1px solid Verdana;
+	padding: 6px 8px 8px;
+	margin-top: 14px;	
+}
+
+.Knowledge_Img
+{
+	float: left;
+	margin-top: 5px;
+	margin-right: 8px;
+}
+
+.WhatsHot_Div
+{
+	font-size: 10px;
+	font-family: Verdana, serif;
+	line-height: 150%;
+	color: #302e2e;
+	background-image: url(images/whatshotbackground.gif);
+	background-repeat: no-repeat;
+	border-top: 1px solid Verdana;
+	border-left: 1px solid Verdana;
+	border-right: 1px solid Verdana;
+	padding: 6px 8px 8px;
+	margin-top: 14px;
+}
+
+.WhatsHot_P
+{
+	margin-top: 8px;
+	margin-left: 10px;
+}
+
+.WhatsHot_Slug
+{
+	margin-top: 18px;
+	margin-left: 56px;
+	font-size: 10px;
+	color: #808086;
+}
+
+.QuoteLink, .QuoteLink:link, .QuoteLink:visted, .QuoteLink:active
+{
+	color: #36c; text-decoration: none; 
+}
+
+.Download_Div
+{
+	margin-top: 27px;
+	font-size: 10px;
+	font-family: Verdana, serif;
+	line-height: 150%;
+	color: #7f7f84;
+}
+
+.Download_Img
+{
+	float: left;
+	margin-right: 8px;
+}
+
+.Downlload_P
+{
+	padding-top: 8px;
+}
+
+.AllianceSubNav_Div
+{
+	font-size: 10px;
+	font-family: Verdana, serif;
+	letter-spacing: 2px;
+	line-height: 170%;
+	border-top: 1px solid Verdana;
+	border-bottom: 1px solid Verdana;
+	padding: 4px 0;
+	margin-top: 12px;
+	margin-bottom: 10px;
+}
+
+.AllianceSubNav_A:active, .AllianceSubNav_A:visited, .AllianceSubNav_A:link
+{
+	color: #808086;
+}
+
+.AllianceSubNav_A:hover
+{
+	color:  #36c;
+}
+
+.AllianceSubNav_B:active, .AllianceSubNav_B:visited, .AllianceSubNav_B:link
+{
+	color: #33333d;
+	font-weight: bold;
+}
+
+.Spaced
+{
+	letter-spacing: 1px;
+}
+
+.Sample_Div
+{
+	font-size: 10px;
+	font-family: Verdana, serif;
+	margin-top: 20px;
+}
+
+.ListItem_Div
+{
+	clear: left;
+	border-top: 1px solid Verdana;
+	padding: 10px 0;
+	margin: 10px 0;
+	line-height: 180%;
+}
+
+.ListItem_Img
+{
+	float: left;
+	margin: 0 10px 10px 0;
+	border: 1px solid #808086;
+}
+
+.GrayHead
+{
+	color: #808086;
+	font-size: 10px;
+	letter-spacing: 1px;
+}
+
+.top_revPhone {
+	color: #343434;
+	font-size: 7.5pt;
+	line-height:1.3em;
+	text-align: right;
+	font-family:Verdana;
+}
+
+.top_logStatus 
+{
+	font-family: Verdana, serif;
+	font-size: 8pt;
+}
+	
+.Legal_Div1 {
+	margin: 6px auto; 
+	line-height: 150%; 
+	padding-top: 10px; 
+	color: #fffbed; 
+	text-transform: uppercase; 
+	text-decoration: none; 
+	font-size: 10px; 
+	letter-spacing: 1.25px;
+	
+}
+
+.Legal_Div2 {
+	margin: 6px; 
+	color: #fffbed; 
+	text-transform: uppercase; 
+	text-decoration: none; 
+	font-size: 10px; 
+	letter-spacing: 1.25px;
+	line-height: 150%; }
+
+.Legal_A:active, .Legal_A:visited, .Legal_A:link
+{
+	color: #fffbed; 
+}
+
+.Legal_A:hover
+{
+	color: #fffbed;
+	text-decoration: underline;
+	
+}
+
+.Legal_P {
+	float: right;
+}
+
+.HRPicCaption
+{
+	text-align: right;
+	font-size: 6pt;
+	font-family: Verdana, verdana, Sans-Serif;
+	margin-right: 11px
+}
+
+
+.FormLabel
+{
+  font-size: 75%;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+  color:#343434;
+}
+
+.FormLabelHotel
+{
+	color: #302e2e;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 75%;
+	text-align: right;
+	letter-spacing: 0.35px;
+	width: 30%;
+	line-height: 1.5;
+}
+
+.FormInput
+{
+color: #302e2e;
+	font-family: Verdana;
+	font-size: 11px;
+	text-align:left;
+	letter-spacing: 0.35px;
+	width: 40%;
+	line-height: 150%;
+}
+
+.FormLabel2
+{
+	color: #302e2e;
+	font-family: Verdana, serif;
+	font-size: 13px;
+	text-align: right;
+	letter-spacing: 0.35px;
+	width: 20%;
+	line-height: 150%;
+}
+
+
+
+.FormInput2
+{
+color: #302e2e;
+	font-family: Verdana;
+	font-size: 11px;
+	text-align: left;
+	letter-spacing: 0.35px;
+	width: 40%;
+	line-height: 150%;
+}
+
+
+.DefaultTextBox
+{
+	width: 200px;
+	height: 15px;
+}
+
+.DefaultTextArea
+{
+	width: 200px;
+	height: 100px;
+}
+
+.DefaultDropDown
+{
+	width: 200px;
+	font-size: 8pt;
+	font-family: Verdana;
+}
+
+.DefaultButton
+{	
+	width: 75px;
+	background-color: #36c; 
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 11px;
+	vertical-align:bottom;
+	letter-spacing:0.4px;
+}
+
+
+.PassButton
+{
+	width: 75px;
+	background-color: #36c;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 11px;
+	vertical-align: bottom;
+	letter-spacing: 0.4px;
+	text-align: center;
+	margin-left:5px;
+}
+.LoginButton
+{
+	width: 85px;
+	border-width: 0px;
+	background-repeat: no-repeat;
+	text-align: right;
+	text-decoration: none;
+	display: block;
+	margin-left: 1px;
+	padding-right: 8px;
+	padding-top:5px;
+}
+
+.SmallText
+{
+	font-family: Verdana, serif;
+	font-size: 11px;	
+}
+
+.UpperCaseLink
+{	font-family: Verdana;
+	font-size: 12px;	
+	text-transform: uppercase;
+	letter-spacing: 0.04em;
+	font-size: 0.75em;	
+}
+
+.lowCaseLink
+{
+	letter-spacing: 0.04em;
+	font-size: 9pt;
+	font-weight: bold;
+}
+
+.mlpsub
+{ color:#707276;
+ font-size :8pt;
+}
+
+
+
+/* ************************************* */
+/* *********** Menu Styles ************* */
+/* ************************************* */
+
+/*.MainMenuCell
+{
+	border:3px solid black;
+	
+}*/
+
+.MainMenu_SelectedNode, .MainMenu_SelectedNode:active, .MainMenu_SelectedNode:visited, .MainMenu_SelectedNode:link, 
+
+MainMenu_SelectedNode:hover
+{
+	color: #ba6f44;
+}
+
+.MainMenu_DefaultNode, .MainMenu_DefaultNode:active, .MainMenu_DefaultNode:visited, .MainMenu_DefaultNode:link
+{
+	color: #343434;
+	text-decoration: underline;
+}
+
+.MainMenu_Level1, .MainMenu_Level1:active, .MainMenu_Level1:visited, .MainMenu_Level1:link
+{
+	font-variant: small-caps;
+	font-size: 14px;
+	font-weight: normal;
+	letter-spacing: 1px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	border-bottom: solid 1px #cecece;
+	color: #343434;
+	border-bottom: solid 1px #cecece;
+	letter-spacing: 1px;
+	background-color: #EEEEEE;
+}
+
+.MainMenu_Level1:hover
+{
+	color: #ba6f44;
+	width: 200px;
+}
+.MainMenu_Level2, .MainMenu_Level2:active, .MainMenu_Level2:visited, .MainMenu_Level2:link
+{
+	font-size: 12px;
+	font-weight: normal;
+	width: 200px; /*background-image: url(../images/navbackground.gif);*/
+	padding-left: 5px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	color: #343434;
+	border-bottom: solid 1px #cecece;
+	letter-spacing: 1px;
+	background-color: #EEEEEE;
+}
+
+.MainMenu_Level2:hover
+{
+	color: #ba6f44;
+}
+
+.MainMenu_Level3, .MainMenu_Level3:active, .MainMenu_Level3:visited, .MainMenu_Level3:link
+{
+	font-family: Verdana;
+	font-size: 11px;
+	font-weight: normal;
+	width: 200px;
+	height: 20px;
+	border: solid 1px Verdana;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	padding-right: 3px;
+	padding-left: 20px;
+	/* color: #000000; */
+	background-color: #EEEEEE;
+}
+
+.MainMenu_Level4, .MainMenu_Level4:active, .MainMenu_Level4:visited, .MainMenu_Level4:link
+{
+	font-family: Verdana;
+	font-size: 11px;
+	font-weight: normal;
+	width: 173px;
+	height: 20px;
+	border: solid 1px #fff5d9;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	padding-right: 3px;
+	padding-left: 30px;
+	background-color: #EEEEEE;
+}
+
+.PageTitle_Table
+{
+	width: 100%;
+	margin-top:3px;
+	border-top: 1px solid Verdana;
+	border-right: 1px solid Verdana;
+	border-bottom: 1px solid Verdana;
+	border-left: 1px solid Verdana;
+	border-left-width: 5px;
+	color: #4c4c56;
+}
+
+.PageTitle_Cell
+{
+	padding: 7px;
+	background-color:#EEEEEE;
+	border:none;
+}
+
+.PageTitle_Text
+{
+	font-size:16px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.WebPartTitle_Table
+{
+	width: 100%;
+	border-top: 1px solid Verdana;
+	border-right: 1px solid Verdana;
+	border-left: 1px solid Verdana;
+	border-left-width: 5px;
+	margin-top: 5px;
+	color: #4c4c56;
+	background-color: #EEEEEE;
+	text-align: left;
+}
+
+
+
+.WebPartTitle_Cell
+{
+	padding: 7px;
+	letter-spacing: 1px;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+
+.WebPartTitle_Text
+{
+    font-family: Verdana;
+    font-size: 11px;
+    color: #343434;
+    font-family: Verdana;
+    font-weight: bold;
+}
+
+.Col_Text
+{
+    font-family: Verdana;
+    font-size: 13px;
+    color: #343434;
+    font-family: Verdana;
+    font-weight: bold;
+}
+
+
+
+.collect_reg {
+	font-family: Verdana;
+	font-size: 10px;
+	font-weight: bold;letter-spacing: 1px;
+	text-transform: capitalize;
+}
+.LoginPartDiv
+{
+	border-top: 1px solid Verdana;
+	border-left: 1px solid Verdana;
+	border-right: 1px solid Verdana;
+	border-bottom: 1px solid Verdana;
+	padding: 11px 25px 11px 25px;
+	width: 323px;
+
+}
+
+
+.loginpage
+{
+	width: 375px;
+	height: 150;
+	text-align: center;
+}
+
+.logpad
+{
+	padding-top: 3px;
+	padding-bottom: 3px;
+	padding-left: 5px;
+	margin-bottom: 5px;
+}
+
+.PassPartDiv
+{
+	border-top: 1px solid Verdana;
+	border-left: 1px solid Verdana;
+	border-right: 1px solid Verdana;
+	border-bottom: 1px solid Verdana;
+	padding: 11px 11px 11px 50px;
+
+}
+
+.WebPartDivHRHC
+{
+	border-top: 1px solid Verdana; 
+	border-left: 1px solid Verdana;
+	border-right: 1px solid Verdana;
+	border-bottom: 1px solid Verdana;
+	padding: 5px 11px 11px 11px; 	
+	}
+	
+
+.WebPartDiv
+{
+	border-top: 1px solid Verdana; 
+	border-left: 1px solid Verdana;
+	border-right: 1px solid Verdana;
+	border-bottom: 1px solid Verdana;
+	padding: 5px 11px 11px 11px; 	
+	font-size: 12px;
+	color: #343434;
+	font-family: Verdana;
+}
+
+.WebPartDivc
+{
+	border-top: 1px solid Verdana; 
+	border-left: 1px solid Verdana;
+	border-right: 1px solid Verdana;
+	border-bottom: 1px solid Verdana;
+	padding: 2px 2px 2px 2px; 	
+	font-size: 12px;
+	color: #343434;
+	font-family: Verdana;
+}
+
+.WebPartDivCol
+{
+	border-top: 1px solid Verdana; 
+	border-left: 1px solid Verdana;
+	border-right: 1px solid Verdana;
+	border-bottom: 1px solid Verdana;
+	padding: 5px 5px 5px 5px; 	
+	font-size: 12px;
+	color: #343434;
+}
+
+
+.WebPartDivstv
+{
+	border-top: 1px solid Verdana; 
+	border-left: 1px solid Verdana;
+	border-right: 1px solid Verdana;
+	border-bottom: 1px solid Verdana;
+	padding: 5px 11px 5px 11px; 	
+	font-size: 12px;
+	color: #343434;
+	font-family: Verdana;
+}
+
+.WebPartDivPages
+{
+	border-top: 1px solid Verdana; 
+	border-left: 1px solid Verdana;
+	border-right: 1px solid Verdana;
+	border-bottom: 1px solid Verdana;
+	padding: 5px 5px 11px 11px; 
+	margin-right: 8px;	
+	font-size: 12px;
+	color: #343434;
+	font-family: Verdana;
+}
+
+
+
+.WebPartDivRates
+{
+	border-top: 1px solid Verdana; 
+	border-left: 1px solid Verdana;
+	border-right: 1px solid Verdana;
+	border-bottom: 1px solid Verdana;
+	padding: 5px 11px 11px 11px; 	
+	
+}
+
+.WebPartDivAm
+{
+	border-top: 1px solid Verdana;
+	border-left: 1px solid Verdana;
+	border-right: 1px solid Verdana;
+	border-bottom: 1px solid Verdana;
+	padding: 5px 11px 11px 11px;
+	font-size: 12px;
+	color: #343434;
+	font-family: Verdana;
+}
+
+
+.CustomStackDiv
+{
+	border-left: 1px solid Verdana;
+	border-right: 1px solid Verdana;
+	border-bottom: 1px solid Verdana;
+	padding:11px; 	
+}
+
+.CustomPartDiv
+{	font-family: Verdana, serif;
+	color: #302e2e;
+	border-top: 1px solid Verdana;
+	border-left: 1px solid Verdana;
+	border-right: 1px solid Verdana;
+	border-bottom: 1px solid Verdana;
+	margin: 0px 8px 8px 0px;
+	padding: 0px 10px 8px 8px;
+}
+
+.CustomPartDiv1
+{
+	font-family: Verdana, serif;
+	color: #302e2e;
+	border-top: 1px solid Verdana;
+	border-left: 1px solid Verdana;
+	border-right: 1px solid Verdana;
+	border-bottom: 1px solid Verdana;
+	margin: 4px 8px 8px 0px;
+	padding: 8px 10px 8px 8px;
+}
+
+
+.CustomPartDivRC
+{
+	font-size: 10px;
+	font-family: Verdana, serif;
+	line-height: 150%;
+	color: #302e2e;
+	border-top: 1px solid Verdana;
+	border-left: 1px solid Verdana;
+	border-right: 1px solid Verdana;
+	border-bottom: 1px solid Verdana;
+	margin:8px 6px 8px 0px;
+	padding: 0px 3px 0px 10px;	
+	width: 625px;
+}
+
+.CustomPartDivRCD
+{
+	font-size: 10px;
+	font-family: Verdana, serif;
+	line-height: 150%;
+	color: #302e2e;
+	border-top: 1px solid Verdana; 
+	border-left: 1px solid Verdana;
+	border-right: 1px solid Verdana;
+	border-bottom: 1px solid Verdana;
+	margin:8px 6px 8px 0px;
+	padding: 10px 15px 15px 15px;
+	width: 610px;
+}
+
+
+.WebPartDisplay
+{
+	border-top: 1px solid Verdana; 
+	border-left: 1px solid Verdana;
+	border-right: 1px solid Verdana;
+	border-bottom: 1px solid Verdana;
+	padding:11px; 
+	/*background-color:  #EEEEEE; */
+	background-color:#EEEEEE;
+}
+
+.DivDisplyName
+{
+	position: absolute; 
+	left: 440px; 
+	top: 75px; 
+	width: 400px;
+	z-index:1px;
+}
+
+.DivDisplyNameForTempEmp
+{
+	position: absolute; 
+	left: 600px; 
+	top: 100px; 
+	width: 400px;
+	z-index:1px;
+}
+
+
+.WebPartDivNoTitle
+{
+	border: 1px solid Verdana;
+	padding: 0px 11px 11px 11px;
+	margin-top: 5px;
+	width: 476px;
+}
+
+.WebPartDivSearch
+{
+	border: 1px solid Verdana;
+	padding: 3px 3px 3px 5px;
+	margin-top: 5px;
+}
+
+
+   
+.PopularPage_Table
+{
+	width: 200px;
+	border-top: 1px solid Verdana;
+	border-right: 1px solid Verdana;
+/*	border-bottom: 1px solid Verdana; */
+	border-left: 1px solid Verdana;
+	border-left-width: 5px;
+	margin-top: 5px;
+	color: #4c4c56;
+	background-color: #EEEEEE;
+	text-align: left;
+}
+   
+.PopularPageContentTable
+{
+	width: 200px;
+	border-top: 1px solid Verdana; 
+	border-left: 1px solid Verdana;
+	border-right: 1px solid Verdana;
+	border-bottom: 1px solid Verdana;
+	padding:11px;
+	font-family: Verdana;
+	color: #CCCCCC;
+	font-size: 11.5px;
+	line-height: 1.5em; 
+	 
+}
+
+ 
+  
+.ListPriv_ul{
+	list-style: none;
+	margin-left: 0;
+	padding-left: 1em;
+	text-indent: -1em;
+	margin-top:0px;
+	margin-bottom:1px;
+}
+        
+.ListPriv_li {
+	/*line-height: 150%;
+	line-height: 12px;	
+	padding-top: 6px;*/
+	/*padding-bottom: 0.5px;*/
+}
+
+/*Member Privledges*/
+
+.WebPartTitle_Mem
+{
+	width: 100%;
+	margin-top: 5px;
+	color: #4c4c56;
+	background-color: #EEEEEE;
+	text-align: left;
+}
+
+.WebPartTitle_TableMP
+{
+	width: 100%;
+	border-top: 1px solid Verdana;
+	border-right: 1px solid Verdana;
+	border-left: 5px solid #36c;
+	margin-top: 5px;
+	color: #4c4c56;
+	background-color: #EEEEEE;
+	text-align: left;
+}
+
+.ListPriv_ul_MemPriv
+{
+	font-family: Verdana;
+	font-size: 11.5px;
+	line-height: 1.5em;
+	letter-spacing: 0.35px;
+	list-style: none;
+	margin-left: 0;
+	padding-left: 0;
+	margin-top: 0px;
+	margin-bottom: 1px;
+	color: #343434;
+}
+
+.ListPriv_li_MemPriv
+{
+	font-family: Verdana;
+	font-size: 11.5px;
+	line-height: 1.6em;	
+	padding-top: 6px;
+	color: #343434;
+}
+
+.ListPriv_foot
+{
+	margin-left: 0;
+	padding-left: 0.75em;
+	font-family: Verdana, serif;
+	font-size: 11px;
+	font-style:italic;
+	color: #666666;
+	line-height: 1.4em;
+
+}
+
+
+
+.DestinationTab_Table
+{
+	width: 100%;
+	border-right: 1px solid Verdana;
+	/*border-bottom: 1px solid Verdana;*/
+	border-left: 1px solid Verdana;
+	border-left-width: 5px;
+	background-color: #EEEEEE;	
+	/*height:20px*/
+}
+
+.DestinationTab_Row
+{
+	border-top: 1px solid Verdana;
+}
+
+.DestinationTab_Cell
+{
+	border-bottom: 1px solid Verdana;
+	border-right: 1px solid Verdana;
+	padding: 4px 6px 4px 6px;
+	margin: -3px;
+	font-family: Verdana;
+	color: #666666;
+	font-size: 11.25px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+
+.BookingItemTab_Table1
+{
+	margin-top:0px;
+	width: 100%;
+/*	border-top: 1px solid Verdana;*/
+	border-right: 1px solid Verdana;
+	/*border-bottom: 1px solid Verdana; */
+	border-left: 1px solid Verdana;
+	border-left-width: 5px;
+	background-color: #EEEEEE;
+	/*height:25px;*/
+}
+
+.BookingItemTab_Table2
+{
+	width: 100%;
+/*	border-top: 1px solid Verdana;  */
+	border-right: 1px solid Verdana;
+	border-bottom: 1px solid Verdana; 
+	border-left: 1px solid Verdana;
+	border-left-width: 3px;
+	background-color: #EEEEEE;
+	/*height:35px;*/
+}
+
+.BookingItemTab_TableRC
+{
+	width: 100%;
+/*	border-top: 1px solid Verdana;  */
+	border-right: 1px solid Verdana;
+	border-bottom: 1px solid Verdana; 
+	border-left: 1px solid Verdana;
+	border-left-width: 1px;
+	background-color: #EEEEEE;
+	/*height:35px;*/
+}
+
+.DataList_Cell:visited,.DataList_Cell:active, .DataList_Cell:link{
+	border-right: 1px solid Verdana;
+	padding: 10px;
+	margin:-3px;
+	background-color:Black ;
+}
+
+.DataList_Text:visited, .DataList_Text:active, .DataList_Text:link
+{
+	color:Black;
+}
+
+.DataList_Text:hover
+{
+	color:  Green;
+	text-decoration: none;
+}
+
+.BookingItemHotelName_Cell
+{
+	color: #c88257; 	
+	font-size: 17px;	
+	padding-bottom: 9px;
+	padding-top:9px;
+	padding-left:9px;	
+	padding-right:9px;	
+	margin: 0;	
+	border-top: 1px solid Verdana;
+	border-bottom: 1px solid Verdana;	
+	letter-spacing:0.08em;				
+}
+
+.BookingItemTab_Cell{
+	/*padding-bottom: 4px;
+	padding-top:4px;*/
+	margin:0px;	
+	/*height:35px;*/
+}
+
+/*
+.testCellHeight
+{
+	margin:0px;
+	padding-top:1px;
+	padding-bottom:1px;
+}
+*/
+
+
+.BookingItemTab_Text
+{
+	font-size: 11px;
+	letter-spacing:1px;
+	padding-top:4px;
+	padding-bottom:4px;
+	padding-right:6px;
+	padding-left:6px;
+	font-family: Verdana;			
+}
+
+BookingItemTab_Text:active
+{
+	color: #a50510;
+}
+
+.RightPanel
+{
+	padding-left:7px;
+}
+
+.ahPicCaption
+{
+	padding-right:25px;
+	font-size:7pt;
+	font-family: Verdana;
+}
+
+
+.ahPicCaption_a
+{
+	padding-right:25px;
+	font-size:8.5pt;
+	font-family: Verdana;
+}
+
+.TavelCenter_TopEmptyTable
+{
+	width:100%;
+	height:0.1px;
+	/*border: 1px solid Verdana;*/
+}
+
+.PageTitleTravelCenter_Table
+{
+	width: 100%;
+	border-right: 1px solid Verdana;
+	border-left: 1px solid Verdana;	
+	border-left-width: 5px;
+	
+	background-color: #EEEEEE;
+	text-align: left;
+}
+
+.TC_Sidebar
+{
+	font-family: Verdana;
+	font-size: 11.5px;
+	line-height: 1.6em;
+	letter-spacing: 0.35px;
+	list-style: none;
+	color: #343434;
+	
+	}
+
+.EmailPrintSave_TopLayOut
+{
+	width: 100%;
+
+	
+	/*
+	border-bottom:1px solid Verdana;
+	border-left:1px solid Verdana;
+	*/
+	/*background-color: #EEEEEE;*/
+}
+
+.EmailPrintSave_BottomLayOut
+{
+	background-color: #EEEEEE;	
+	height:25px;
+}
+
+.EmailPrintSave_Tool{
+	white-space: nowrap;
+	border-left: 1px solid Verdana;
+	padding: 4px;  
+	font-family: verdana;
+	font-size: 10px;
+}
+
+.EmailPrintSave_InsideLayOut
+{
+	font-weight:500;
+	font-size: 11px;	
+	font-family: Verdana;
+	white-space: nowrap;
+	border-bottom:1px solid Verdana;
+	border-left:1px solid Verdana;
+	text-align:center;	
+}
+
+
+.PageTitleTravelCenter_Cell
+{
+	border-top: 1px solid Verdana;
+	/*border-bottom: 1px solid Verdana; */
+	background-color: #EEEEEE;
+	padding: 12px;
+	font-size:18px;
+	color: #4c4c56;	
+}
+
+
+/*SPECIAL TRAVEL VALUES, LIST ITEMS*/
+
+.ListPageWedPartDiv
+{
+	/*border-top: 1px solid Verdana; */
+	border-left: 1px solid Verdana;
+	border-right: 1px solid Verdana;
+	border-bottom: 1px solid Verdana;
+	padding:11px;
+	}
+
+.ThumbnailImg
+{
+	float: left;
+	padding-right: 10px;
+}
+
+.Thumbnail_h2 a:link a:active, a: hover, a:visited
+{
+	color: #36c;
+}
+
+.Thumbnail_h2 {
+	letter-spacing: 0.1em;
+	font: bold 12px Verdana;
+
+}
+
+
+
+
+.stv_descrp {
+color:#343434;
+font-family:Verdana,serif;
+font-size:14px;
+line-height: 1.4em;
+}
+
+.Thumbnail_Content{
+	height: 84px;
+	padding: 5px 16px;
+}
+
+.ThumbnailAndCaption
+{
+	padding-left:7px;
+}
+
+.AUC_RedBoldText
+{
+	 color: #a50510;
+	 font-weight:bold;
+}
+
+.AUC_TabActive
+{
+	border-top: solid 1px Verdana;
+	border-left: solid 1px Verdana;
+	border-right: solid 1px Verdana;
+	text-align: center;
+	padding: 3px;
+ 
+}
+
+.AUC_TabInactive
+{
+	border: solid 1px Verdana;
+	background: #343434;
+	text-align: center;
+	padding: 3px;
+ 
+}
+
+.AUC_TabSep
+{
+	border-bottom: solid 1px Verdana; 
+}
+
+.AUC_Border
+{
+	padding: 20px 10px 10px 10px;
+	border-bottom: solid 1px Verdana;
+	border-left: solid 1px Verdana;
+	border-right: solid 1px Verdana;
+}
+
+.TC_TabActive
+{
+	border-top: solid 1px Verdana;
+	border-left: solid 1px Verdana;
+	border-right: solid 1px Verdana;
+	text-align: center;
+	padding: 3px;
+	font-size: 13px;
+	letter-spacing: 1px;
+}
+
+.TC_TabInactive
+{
+	border: solid 1px Verdana;
+	background: #EEEEEE;
+	text-align: center;
+	padding: 3px;
+	font-size: 13px;
+	letter-spacing: 1px;
+}
+
+.TC_TabSep
+{
+	border-bottom: solid 1px Verdana;
+}
+
+.TC_TabPage
+{
+	border-bottom: solid 1px Verdana;
+	border-left: solid 1px Verdana;
+	border-right: solid 1px Verdana;
+}
+
+.TC_SearchTextBox
+{
+	width: 300px;
+}
+
+.TC_SearchTextBoxWithText
+{
+	height: 15px;
+	width: 175px;
+	font-size: 9px;
+	font-family: Verdana;
+}
+
+.TC_TopLinkPath
+{
+	/*display: inline;*/
+	font-family: verdana;	
+	font-size: 9px;		
+	color: #4c4c56;
+}
+
+.TC_RateCell
+{
+	border-right: #e2dfd0 1px solid;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	color: #343434;
+	font-family: Verdana;
+	font-size: 11px;
+	letter-spacing: 0.1em;
+	line-height: 1.4em;
+	text-transform: none;
+	width: 35%;
+	text-align: left;
+}
+
+.TC_BookingItemContent
+{	font-family: Verdana;
+	font-size: 11.25px;
+	line-height:1.4em;
+
+}
+
+.MoreInfoPopup
+{
+	background-color: #ffffff;
+	margin: 0 auto;
+	padding: 5px;
+	border: 2px solid Verdana;
+}
+
+.accordionHeader
+{
+    border: 1px solid Verdana;
+    color: #343434;
+    background-color: #EEEEEE;
+	font-size: 13px;
+    padding: 5px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.accordionHeader a
+{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.accordionHeader a:hover
+{
+	background: none;
+	text-decoration: underline;
+}
+
+.accordionHeaderSelected
+{
+    border: 1px solid Verdana;
+    color: #343434;
+    background-color: #EEEEEE;
+	font-size: 13px;
+    padding: 5px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.accordionHeaderSelected a
+{
+	color: #FFFFFF;
+	background: none;
+	text-decoration: none;
+	background-color: #ffffff;
+}
+
+.accordionHeaderSelected a:hover
+{
+	background: none;
+	text-decoration: underline;
+}
+
+.accordionContent
+{
+    border: 1px solid Verdana;
+    border-top: none;
+    padding: 5px;
+    padding-top: 10px;
+	background-color: #ffffff;
+}
+
+.SiteMapList, .SiteMapList a:active, .SiteMapList a:visited, .SiteMapList a:link
+{
+	list-style-type: none;
+	color: #302e2e;
+	line-height: 18px;
+}
+
+.SiteMapList a:hover
+{
+	text-decoration: underline;
+}
+
+.errormessage
+{
+	color: #E34609;
+	font-family: Verdana;
+	font-size:12px;
+	text-align: center;
+	width:100%;
+
+}
+
+.errormessage2
+{
+	color: #E34609;
+	font-family: Verdana;
+	font-size:12px;
+	text-align: left;
+	width:100%;
+
+}
+
+.RenewLink, .RenewLink:active, .RenewLink:visited, .RenewLink:link
+{
+	color: #ff0000;
+	font-weight: bold;
+	line-height: 30px;
+	text-align: center;
+}
+
+.hrSeparateFullView
+{
+	height: 0;
+	border: 0;
+	border-top: 1px solid Verdana;
+	text-align: center;
+}
+
+.hrSeparatePreView
+{
+	height: 0;
+	border: 0;
+	border-top: 1px solid Verdana;
+	text-align: center;
+}
+
+/******* CT *******/
+.MainOutsideBorder_Print
+{
+	background-color: #ffffff; 
+	/* width: 900px; */
+	width: 100%; 
+	margin: 0 auto;
+	padding: 5px;	
+}
+
+.emailPanel
+{
+	background-color:#ffffff;
+	border-width:3px;
+	border-style:solid;
+	border-color:Gray;
+	padding:3px;
+	width:750px;
+}
+
+.modalBackgroud
+{
+	background-color:Gray;		
+
+	
+}
+
+.pass
+{
+	padding-right: 25px;
+	padding-left: 150px;
+	padding-bottom: 15px;
+	vertical-align: top;
+	padding-top: 15px;
+	text-align: left;
+}
+
+.NormalRed
+{
+	color: #a50510;	
+}
+
+.test
+{
+ margin-left:-100px;	
+}
+
+/**** Data Entry Class ****/
+.TravelSummary
+{
+	list-style: none;
+	font-family: Verdana, serif;
+	font-size: 14px;
+	color: #343434;
+	line-height: 160%;
+	letter-spacing: 0.35px;
+}
+
+.TravelSummarysmall
+{
+    font-size: 11px;
+	line-height: 160%;
+}
+.orange
+{
+	color: #36c;
+}
+.MemberHome
+{
+	font-family: Verdana, serif;
+	font-size:14px; 
+	color:#343434; 
+	line-height: 1.4em;
+	letter-spacing: 0.35px;
+}
+
+.Traveltitle
+{
+	text-transform: uppercase;	
+	color:#c88257; 
+}
+
+.autocomplete_completionListElement 
+{  
+	visibility : hidden;
+	margin : 0px!important;
+	background-color : #FFFFFF;
+	color : windowtext;
+	border : buttonshadow;
+	border-width : 1px;
+	border-style : solid;
+	cursor : 'default';
+	overflow : auto;
+	height : 200px;
+    text-align : left; 
+    list-style-type : none;
+}
+
+/* AutoComplete highlighted item */
+.autocomplete_highlightedListItem
+{
+	background-color: #ffff99;
+	color: black;
+	padding: 1px;
+}
+
+/* AutoComplete item */
+.autocomplete_listItem 
+{
+	background-color : window;
+	color : windowtext;
+	padding : 1px;
+}
+
+.accordionHeader
+{
+	background-color: #EEEEEE;
+	text-align: left;
+	font-family: Verdana;
+	font-size: 9px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+.BlogTitle
+{
+	width: 445;
+	border-top: 1px solid Verdana; 
+	border-right: 1px solid Verdana; 
+	border-bottom: 1px solid Verdana; 
+	border-left: 1px solid Verdana;
+	border-left-width: 5px;
+/*	margin-top: 5px; */
+	color: #4c4c56;
+	background-color: #EEEEEE;
+	text-align: left;
+	text-transform: uppercase;
+	text-indent: 3px;
+	font-weight: bold;
+	font-family:Verdana;
+}
+
+/* Customer Referral */
+
+.EmailTextBox
+{
+	width:300px; 
+	font-family: Verdana, serif; 
+	font-style:italic; 
+	font-size:11px; 
+	color: #505050;	
+}
+
+.EmailTextBox2
+{
+	width:175px; 
+	font-family: Verdana, serif; 
+	font-style:italic; 
+	font-size:11px; 
+	color: #505050;	
+}
+
+.poppages
+{
+	font-family: Verdana;
+	color: #CCCCCC;
+	font-size: 11.25px;
+	line-height: 155%; 
+}
+	
+
+.hrcontrol{
+	font-family: Verdana;
+	color: #666666;
+	font-size: 11.25px;
+	line-height: 150%; 
+}
+
+	
+.hrcontroltitle
+{
+font-size: 11px;
+line-height: 150%;
+color: #343434;
+
+}
+
+.hrcontroltitleit
+{
+font: font-size: 7pt;
+line-height: 11pt;
+font-style:italic;
+}
+
+
+
+.memberlandingli
+{
+	padding-left: 10px; 
+	padding-bottom: 7px;
+}
+
+.memberlandingul
+{
+	list-style: none;
+	margin: 3px;
+	text-indent: -1em;
+}
+
+.sigtour
+{ font: 14px Verdana, Times New Roman, Times, serif;  
+  line-height: 1.5; margin: 12px 0px 4px 0px; padding: 0px; letter-spacing: .25px; }
+  
+  .readmore
+{
+	text-decoration: none;
+	text-transform: uppercase;
+	font: bold 11px Verdana;
+}
+
+
+.capstitle
+{
+	font-size: 8pt;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	
+}
+
+
+  .refferal
+{
+	text-decoration: none;
+	font: bold 12px Verdana;
+	letter-spacing: 0.75px;
+	text-align: left;
+}
+
+ .refferal_Main
+{
+	text-decoration: none;
+	text-transform: uppercase;
+	font: bold 13px Verdana;
+}
+
+
+.search
+{
+	font-family: Verdana;
+	font-size: 12px;
+	line-height: 150%;
+}
+
+.smsearch
+{
+	font-family: Verdana;
+	font-size: 10.5px;
+	line-height: 140%;
+	
+}
+
+.brdr_light
+{
+	padding-right: 5px;
+	padding-left: 5px;
+	background-color: white;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	
+}
+
+
+/*Collection page styles*/
+
+.update_title
+{
+	font-family: Verdana;
+	font-size: 11px;
+
+}
+
+.search_descp
+{	font-family: Verdana;
+	color: #343434;
+	font-size: 11px;
+	line-height: 1.6em; 
+	padding-bottom: 3px;
+}
+  
+
+.stroke {
+	border-top: 1px solid #CCCCCC;
+	border-right: 1px solid #CCCCCC;
+	border-bottom: 1px solid #CCCCCC;
+	border-left: 1px solid #CCCCCC;
+}
+
+
+.left_stroke {
+	border-top: 0px solid #CCCCCC;
+	border-right: 0px solid #CCCCCC;
+	border-bottom: 0px solid #CCCCCC;
+	border-left: 1px solid #CCCCCC;
+	padding-left: 5px;
+	padding-top: 5px;
+	padding-right: 5px;
+}
+
+.collection
+{
+	list-style: none;
+	font-size: 15px;
+	line-height: 130%;
+}
+
+.collection2
+{
+	list-style: none;
+	font-size: 15px;
+	line-height: 150%;
+}
+
+.with
+{
+	list-style: none;
+	font-size: 8pt;
+	line-height: 140%;
+	font-style: italic;
+}
+
+.collection3
+{
+	font-size: 13px;
+	line-height: 150%;
+}
+
+.sidebar
+{
+	font-family: Verdana;
+	color: #666666;
+	font-size: 11px;
+	line-height: 150%; 
+	
+}
+
+.sidebar_rating
+{
+    font-family: Verdana;
+    color: #343434;
+    font-size: 11px;
+    line-height: 150%;
+}
+
+.region_col
+{
+	font-family: Verdana;
+	color:#666666;
+	font-size: 11px;
+	line-height: 150%;
+	font-weight: bold;
+}
+
+
+.ob
+{
+	font-family: Verdana;
+	font-size: 10px;
+	line-height: 1.7em;
+}
+
+.region_tab
+{
+	font-family: Verdana;
+	font-size: 11px;
+	line-height: 1.5em;
+	font-weight: bold;
+}
+
+.update
+{
+	font-size: 9px;
+	font-style: italic;
+}
+
+
+.post_title {
+	color: #4C4C56;
+	font-weight: bold;
+	font-size: 14px;
+	padding-top: 10px;
+	padding-bottom: 15px;
+	font-family: Verdana;
+}
+
+sup {
+position: relative;
+bottom: 2ex;
+vertical-align: baseline;
+font-size: 50%;
+}
+
+
+span#reg{ 
+position: relative;
+bottom: 1ex;
+vertical-align: baseline;
+font-size: 75%;
+} 
+
+/*AUCTIONS*/
+
+.aucterms
+{
+	font-size:13px; 
+	font-family:Verdana, serif; 
+	color:#343434; 
+	line-height: 1.7em; 
+	
+}
+
+
+.aucterms a:link{
+	color: #36c;
+}
+
+.auction_title a:link{
+	color: #36c;
+}
+	
+.auction_title
+{
+    color: #36c;
+	text-transform:capitalize;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-style:normal;
+	font-weight:bold;
+	font-size: 1.2em;
+	padding-bottom: 3px;
+}
+
+.auction_location {
+	font-style: italic;
+	color: #343434;
+	font-size: 12px;
+	line-height: 1.2em;
+}
+
+.auction_titlewp a:link
+{
+	color: #36c;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+}
+
+
+
+.auction_titlewp
+{
+	color: #36c;
+	letter-spacing: 0.1em;
+	font: bold 12px Verdana;
+	text-transform: uppercase;
+	padding-left:5px
+}
+.auction_locationwp
+{
+	font-style: italic;
+	color: #343434;
+	font-size: 11px;
+	line-height: 14px;
+	padding-left:5px
+	
+}
+
+
+.auctiondet
+{
+	font-size: 12px;
+	color: #343434;
+	line-height: 1.2em;
+	letter-spacing: 0.35px;
+	font-family: Verdana;
+}
+
+.auctionfont
+{
+	font-size: 12px;
+	color: #343434;
+	line-height: 1.2em;
+	letter-spacing: 0.35px;
+	font-family: Verdana;
+}
+
+	.auctiondetb
+{
+	font-family: Verdana;
+	font-size: 12px;
+	color: #343434;
+	line-height: 1.2em;
+	letter-spacing: 0.35px;
+	font-weight: bold;
+}
+
+.auction_small{  
+  font-size: 75%;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  line-height: 1.4;
+  color:#343434;
+}
+
+
+.auction_titleor {
+	color: #36c;
+	letter-spacing: 0.8px;
+	font: 15px Verdana;
+	text-transform: uppercase;
+}
+
+.auction_header {
+	color: #36c;
+	letter-spacing: 1px;
+	font: 17px Verdana;
+	text-transform: uppercase;
+}
+
+
+
+.auction_titleror {
+	color: #36c;
+	letter-spacing: 0.8px;
+	font: 13px Verdana;
+	text-transform: uppercase;
+}
+.AuctionSummarysmall
+{
+    font-size: 6.5pt;
+	line-height: 150%;
+	padding-bottom: 7px;
+}
+
+.WebPartDivr
+{	border-top: 1px solid Verdana;
+	border-left: 1px solid Verdana;
+	border-right: 1px solid Verdana;
+	border-bottom: 1px solid Verdana;
+	padding: 1px 10px 2px 10px;
+	margin-top: 5px;
+}
+
+
+
+
+/*Readers Choice 2009 styles*/
+
+.rchoice
+{
+	font: 15px Verdana, Times New Roman, Times, serif;
+	color: #323232;
+	line-height: 1.2;
+	letter-spacing: .35px;
+	list-style: none;
+	padding-left: 1em;
+	text-indent: -1.5em;
+	
+}
+
+
+.numbers
+{
+	font: 20px Verdana, Times New Roman, Times, serif;
+	line-height: 1.5;
+	letter-spacing: .35px;
+	font-style: italic;
+}
+
+
+.rc{
+	font: 20px Verdana, Times New Roman, Times, serif;
+	color: #323232;
+	letter-spacing: .35px;
+	font-style: italic;
+}
+
+ol p{
+	font: normal .8em Verdana, Times New Roman, Times, serif;
+	color: #323232;
+
+}
+
+.webpart
+{
+	font-size: 10px;
+	font-family: Verdana, serif;
+	line-height: 150%;
+	color: #302e2e;
+	border-top: 1px solid Verdana;
+	border-left: 1px solid Verdana;
+	border-right: 1px solid Verdana;
+	padding: 0px 5px 0px 0px;
+	margin: 0px 
+	text-align: center;
+}
+
+.WebPartBooking
+{
+	line-height: 125%;
+	color: #302e2e;
+	border-top: 1px solid Verdana;
+	border-left: 1px solid Verdana;
+	border-right: 1px solid Verdana;
+	border-bottom: 1px solid Verdana;
+	padding: 3px 3px 5px 5px;
+	margin: 0px 0px 3px 0px; 
+	text-align: center;
+}
+
+.loginbox {
+	width:100%;
+	padding-top: 15px;
+	background: center top;
+}
+
+
+.TC_further
+{
+	color: #666666;
+	font-size: 11px;
+	line-height: 1.4em;
+	font-family: Verdana;
+}
+
+.login{
+	font-family: Verdana, serif;
+	font-size:14px; 
+	color:#343434; 
+	line-height: 1.5em;
+	letter-spacing: 0.35px;
+}
+
+
+.grey_caps 
+{
+	font: bold 10px Verdana;
+	text-transform: uppercase;
+	color: #A85A2A;
+	letter-spacing: .95px;
+
+}
+
+
+hr {
+
+	border: 1px #EEEEEE;
+	border-style: solid;
+
+	
+}
+
+
+.loginannounce
+{
+    font: normal 15px Verdana;
+    font-weight: 500;
+    line-height: 1.2em;
+}
+
+/*Booking Item Control*/
+
+#rooms-adults-children {
+	display: block;
+	margin-top: 0px;
+	margin-bottom: 5px;
+	width: 100%;
+	clear: left;
+	
+}
+.DropDown-Generic {
+	font-size:8px;
+	font-family:Verdana, sans-serif;
+	color: #333;
+	border: 0px solid #cccccc;
+	height: 20px;
+	padding-left: 5px;
+	margin-right: 10px;
+}
+.Popup {
+	background:#fff;
+	padding: 5px;
+	height: 150px;
+	width: 300px;
+	font-family: Verdana;
+    font-size:11.25px;
+	border: 8px solid #333;
+}
+#PopupHeader, #PopupHeader2 {
+	font-size: 22px;
+	color: #333;
+	text-align: left;
+	border-bottom-width: 0px;
+	border-bottom-style: dotted;
+	border-bottom-color: #333;
+	background-image: url(../App/TravelCenter/Controls/images/warning-large-red.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+	height: 30px;
+	padding-top: 12px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 55px;
+}
+.PopupBody p {
+	color:#666666;
+    font-family:Verdana;
+    font-size:11.25px;
+	text-align: center;
+
+}
+.Controls {
+	text-align: center;
+}
+.ModalPopupBG
+{
+    background-color: #666699;
+    filter: alpha(opacity=50);
+    opacity: 0.7;
+	width: 100%;
+	height: 100%;
+}
+#hotel-search-container {
+	float: left;
+	color:#666666;
+    font-family:Verdana;
+    font-size:11.25px;
+	position: relative;
+	margin: 0px;
+	padding: 0px;
+	width:300px;
+        top: 0px;
+        left: 0px;
+    }
+    
+   
+#hotel-search {
+	width: 100%;
+	margin-top: 0px;
+	margin-right: 5px;
+	margin-bottom: 0;
+	margin-left: 5px;
+}
+#hotel-search .address {
+	background-image: url(images/map.png);
+	background-repeat: no-repeat;
+	padding-left: 42px;
+	background-position: left center;
+	height: 25px;
+	vertical-align: middle;
+	padding-top: 12px;
+	margin-top: 0px;
+	float: left;
+	padding-right: 14px;
+}
+#hotel-search .chain {
+	background-image: url(images/globe.png);
+	background-repeat: no-repeat;
+	padding-left: 42px;
+	background-position: left center;
+	height: 25px;
+	vertical-align: middle;
+	padding-top: 12px;
+	margin-top: 0px;
+	float: left;
+	padding-right: 30px;
+}
+#calendar {
+	display: block;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.check-in {
+	float: left;
+	
+}
+.check-out {
+	float: left;
+	clear: right;
+}
+.clear-check-in {
+	display: block;
+	clear: both;
+	float: left;
+	margin-bottom: 0px;
+	
+}
+.check-in-date, .check-out-date {
+	float: left;
+	clear: left;
+	width: 86px;
+	margin-top: 0px;
+	padding-top: 0px;
+}
+.calendar-icon {
+	float: left;
+	width: 40px;
+	clear: both;
+	margin-left: 7px;
+}
+.check-in-date-field, .check-out-date-field {
+	color:#666666;
+    font-family:Verdana;
+    font-size:11.25px;
+	border: 1px solid #999999;
+	width:70px;
+	background-color: #FFF;
+	padding-top: 0px;
+	padding-right: 8px;
+	padding-bottom: 2px;
+	padding-left: 8px;
+	margin-left: 0px;
+	margin-top: 0px;
+}
+.check-out {
+	float: left;
+	width: 50%;
+	clear: right;
+}
+a.header-my-reservations-link{
+	font-variant:small-caps;
+}
+
+.website-message{margin:10px 0px;color:#f00;}
+/*END Booking Item Control*/
+
+.membership-status-container{width:100%;margin:0px;padding:0px;}
+.membership-status-row{width:100%;line-height:25px;margin:0px;}
+.membership-status-label{display:inline;float:left;}
+.membership-status-value{display:inline;float:right;}
+
+img {
+
+  margin: 11px;
+}

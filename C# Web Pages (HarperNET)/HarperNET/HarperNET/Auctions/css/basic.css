@@ -1,0 +1,319 @@
+
+.mainContainer .bottomArea .content .twoCols .col1 p 
+{ font-size: 14px; 
+  line-height: 1.5; }
+  
+body { text-align: center; background: #321a11 url(../images/templates/body_bg.gif); }
+
+body, p { font: 12px Verdana, Times New Roman, Times, serif; 
+          color: #323232; 
+          line-height: 1.4; 
+          margin: 0px; 
+          padding: 0px; 
+          letter-spacing: .35px; }
+
+.menumaintext {margin: 0px 0px 0px 0px; padding: 0px; }
+
+.menusubtext
+{ font: 12px Verdana, Times New Roman, Times, serif; 
+          color: #323232; 
+          line-height: 1.4; 
+          margin: 0px; 
+          padding: 0px; 
+          letter-spacing: .35px; }
+
+.sigtour
+{ font: 14px Verdana, Times New Roman, Times, serif;  
+  line-height: 1.5; margin: 12px 0px 4px 0px; padding: 0px; letter-spacing: .25px; }
+
+.clear { clear: both; font-size: 1%; }
+a { color:#36c; text-decoration: none; }
+
+a.calloutLink { font-size: 11px; text-transform: uppercase; color:#36c; font-weight: bold; text-decoration: none; }
+a img { border: none; }
+
+img.introImage { float: left; margin-right: 8px; margin-top: 6px; }
+
+span.lowercase { text-transform: lowercase; font-style: italic; }
+
+span.capitalize { text-transform: capitalize; font-style: italic; }
+
+span#size13 { font-size: 11px; cursor: pointer; }
+span#size15 { font-size: 13px; cursor: pointer; }
+span#size17 { font-size: 15px; cursor: pointer; }
+
+h1.bandBlue { background: #94a7ad; margin: 8px 0px 0px 0px; padding: 6px 0px 6px 23px; color: #ffffff; font: 10px Verdana, Arial, Helvetica, sans-serif; font-weight: bold; text-transform: uppercase; letter-spacing: 1.25px;}
+
+h1.bandGreen { background: #8D9F7B; margin: 8px 0px 0px 0px; padding: 6px 0px 6px 23px; color: #ffffff; font: 10px Verdana, Arial, Helvetica, sans-serif; font-weight: bold; text-transform: uppercase; letter-spacing: 1.25px; }
+
+h1.bandbrown { background: #958b6f; margin: 8px 0px 0px 0px; padding: 6px 0px 6px 23px; color: #ffffff; font: 10px Verdana, Arial, Helvetica, sans-serif; font-weight: bold; text-transform: uppercase; letter-spacing: 1.25px; }
+
+h1.bandgrey { background: #666666; margin: 8px 0px 0px 0px; padding: 6px 0px 6px 23px; color: #ffffff; font: 10px Verdana, Arial, Helvetica, sans-serif; font-weight: bold; text-transform: uppercase; letter-spacing: 1.25px; }
+
+h1.bandOrange { background:#36c; margin: 8px 0px 0px 0px; padding: 6px 0px 6px 23px; color: #ffffff; font: 10px Verdana, Arial, Helvetica, sans-serif; font-weight: bold; text-transform: uppercase; letter-spacing: 1.25px; }
+
+
+.mainContainer { width: 990px; margin: 0px auto 0px auto; text-align: left;  }
+
+.mainContainer .topArea { background: url(../images/templates/home_toparea_bg.jpg) repeat-y; position: relative; letter-spacing: .45px; }
+
+.listit { font: 12px Verdana, Times New Roman, Times, serif; color: #323232; line-height: 2; margin: 0px; letter-spacing: .25px; }
+
+.mainContainer .topArea .header { height: 68px; position: relative; }
+.mainContainer .topArea .header img.logo { position: absolute; top: 12px; left: 21px;
+    right: 942px;
+}
+.mainContainer .topArea .header p.tagline { position: absolute; letter-spacing: .25px; top: 31px; left: 243px; font-size: 11px; font-weight: bold; text-transform: uppercase; }
+.mainContainer .topArea .header p.tagline span { font-weight: bold; text-transform: lowercase; font-style: italic; }
+.mainContainer .topArea .header .signup { text-align: right; position: absolute;  top: 13px; width: 270px; left: 705px; }
+.mainContainer .topArea .header .signup p.newsletter { margin-top: 8px; }
+.mainContainer .topArea .header .signup a { color:#36c; font-style: italic; font-weight: bold; font-size: 11px; text-decoration: none; letter-spacing: 1px; }
+
+.mainContainer .topArea .navigation { height: 31px; }
+
+.mainContainer .bottomArea { background: #ffffff url(../images/templates/con_bottomarea_bg.gif) repeat-y; width: 980px; margin-left: 4px; padding: 0px 0px 1px 0px; }
+.mainContainer .bottomArea .content { border-top: 1px solid #ffffff; border-bottom: 1px solid #ffffff; }
+
+.mainContainer .bottomArea .content .twoCols { padding-bottom: 15px; }
+
+/*.mainContainer .bottomArea .content .twoCols, .mainContainer .bottomArea .content .twoCols p { font-size: 11px; line-height: 1.7; } this is overrides font for menu and main col*/
+
+.menusubtext { font-size: 11px; line-height: 1.7; }
+
+
+.mainContainer .bottomArea .content .twoCols .minHeight { float: left; height: 5px; width: 7px; }
+
+.mainContainer .bottomArea .content .twoCols .col1 { float: left; width: 642px; padding: 4px 0px 14px 0px; }
+
+.mainContainer .bottomArea .content .twoCols .col1 .contents { padding: 26px 20px 0px 20px; }
+
+.mainContainer .bottomArea .content .twoCols .col1 h1 { letter-spacing: 1.25px; font-size: 14px; margin: 0px 0px 4px 0px; padding: 0px; color:#36c; font-weight: bold; }
+.mainContainer .bottomArea .content .twoCols .col1 h2
+{
+    letter-spacing: 0.5px;
+    font-size: 14px;
+    font-style: italic;
+    margin: 0px 0px 2px 0px;
+    padding: 0px;
+    font-weight: bold;
+}
+.mainContainer .bottomArea .content .twoCols .col1 div.fontSize { float: right; text-transform: uppercase; margin: 2px 0px 0px 0px; }
+.mainContainer .bottomArea .content .twoCols .col1 div.fontSize .fontSizeActive { color:#36c; }
+
+.mainContainer .bottomArea .content .twoCols .col2 { float: left; width: 323px; margin-left: 8px; }
+
+.mainContainer .bottomArea .content .twoCols .col2 .list a { color: #323232; text-decoration: none; }
+
+.mainContainer .bottomArea .content .twoCols .col2 .list p 
+{ line-height: 1.3; }
+
+.mainContainer .bottomArea .content .twoCols .col2 .list h1 { font-size: 15px; text-transform: uppercase; margin: 0px 0px 0px 0px; padding: 0px; line-height: 1.3; font-weight: normal; letter-spacing: 1.25px; }
+
+.mainContainer .bottomArea .content .twoCols .col2 .list .item01 { margin: 0px; padding: 0px; list-style: none; border-bottom: 1px solid #f4e9ca; }
+.mainContainer .bottomArea .content .twoCols .col2 .list .item01 a { height: 101px; display: block; overflow: hidden; background: url(../images/content/list_bg/01_bg.gif) no-repeat; }
+.mainContainer .bottomArea .content .twoCols .col2 .list .item01 a:hover { background: url(../images/content/list_bg/01_bg_active.gif) no-repeat; }
+.mainContainer .bottomArea .content .twoCols .col2 .list .item01 a div { padding: 12px 10px 0px 110px; }
+.mainContainer .bottomArea .content .twoCols .col2 .list .item01_acive a { height: 101px; display: block; overflow: hidden; background: url(../images/content/list_bg/01_bg_active.gif) no-repeat; }
+.mainContainer .bottomArea .content .twoCols .col2 .list .item01_acive a div { padding: 12px 10px 0px 110px; }
+
+.mainContainer .bottomArea .content .twoCols .col2 .list .item02 { margin: 0px; padding: 0px; list-style: none; border-bottom: 1px solid #f4e9ca; }
+.mainContainer .bottomArea .content .twoCols .col2 .list .item02 a { height: 101px; display: block; overflow: hidden; background: url(../images/content/list_bg/02_bg.gif) no-repeat; }
+.mainContainer .bottomArea .content .twoCols .col2 .list .item02 a:hover { background: url(../images/content/list_bg/02_bg_active.gif) no-repeat; }
+.mainContainer .bottomArea .content .twoCols .col2 .list .item02 a div { padding: 12px 10px 0px 110px; }
+.mainContainer .bottomArea .content .twoCols .col2 .list .item02_acive a { height: 101px; display: block; overflow: hidden; background: url(../images/content/list_bg/02_bg_active.gif) no-repeat; }
+.mainContainer .bottomArea .content .twoCols .col2 .list .item02_acive a div { padding: 12px 10px 0px 110px; }
+
+.mainContainer .bottomArea .content .twoCols .col2 .list .item03 { margin: 0px; padding: 0px; list-style: none; border-bottom: 1px solid #f4e9ca; }
+.mainContainer .bottomArea .content .twoCols .col2 .list .item03 a { height: 101px; display: block; overflow: hidden; background: url(../images/content/list_bg/03_bg.gif) no-repeat; }
+.mainContainer .bottomArea .content .twoCols .col2 .list .item03 a:hover { background: url(../images/content/list_bg/03_bg_active.gif) no-repeat; }
+.mainContainer .bottomArea .content .twoCols .col2 .list .item03 a div { padding: 12px 10px 0px 110px; }
+.mainContainer .bottomArea .content .twoCols .col2 .list .item03_acive a { height: 101px; display: block; overflow: hidden; background: url(../images/content/list_bg/03_bg_active.gif) no-repeat; }
+.mainContainer .bottomArea .content .twoCols .col2 .list .item03_acive a div { padding: 12px 10px 0px 110px; }
+
+.mainContainer .bottomArea .content .twoCols .col2 .list .item04 { margin: 0px; padding: 0px; list-style: none; border-bottom: 1px solid #f4e9ca; }
+.mainContainer .bottomArea .content .twoCols .col2 .list .item04 a { height: 101px; display: block; overflow: hidden; background: url(../images/content/list_bg/04_bg.gif) no-repeat; }
+.mainContainer .bottomArea .content .twoCols .col2 .list .item04 a:hover { background: url(../images/content/list_bg/04_bg_active.gif) no-repeat; }
+.mainContainer .bottomArea .content .twoCols .col2 .list .item04 a div { padding: 12px 10px 0px 110px; }
+.mainContainer .bottomArea .content .twoCols .col2 .list .item04_acive a { height: 101px; display: block; overflow: hidden; background: url(../images/content/list_bg/04_bg_active.gif) no-repeat; }
+.mainContainer .bottomArea .content .twoCols .col2 .list .item04_acive a div { padding: 12px 10px 0px 110px; }
+
+.mainContainer .bottomArea .content .twoCols .col2 .list .item05 { margin: 0px; padding: 0px; list-style: none; border-bottom: 1px solid #f4e9ca; }
+.mainContainer .bottomArea .content .twoCols .col2 .list .item05 a { height: 101px; display: block; overflow: hidden; background: url(../images/content/list_bg/05_bg.gif) no-repeat; }
+.mainContainer .bottomArea .content .twoCols .col2 .list .item05 a:hover { background: url(../images/content/list_bg/05_bg_active.gif) no-repeat; }
+.mainContainer .bottomArea .content .twoCols .col2 .list .item05 a div { padding: 12px 10px 0px 110px; }
+.mainContainer .bottomArea .content .twoCols .col2 .list .item05_acive a { height: 101px; display: block; overflow: hidden; background: url(../images/content/list_bg/05_bg_active.gif) no-repeat; }
+.mainContainer .bottomArea .content .twoCols .col2 .list .item05_acive a div { padding: 12px 10px 0px 110px; }
+
+.mainContainer .bottomArea .content .twoCols .col2 .list .item a div { padding: 12px 10px 0px 110px; }
+.mainContainer .bottomArea .content .twoCols .col2 .callout {font: 12px Verdana, Times New Roman, Times, serif; color: #323232; line-height: 1.4; margin: 0px; padding: 0px; letter-spacing: .35px; padding: 20px 20px 15px 23px;}
+
+.mainContainer .bottomArea .content .twoCols .col2 .callout2 {font: 12px Verdana, Times New Roman, Times, serif; color: #323232; line-height: 1.75; margin: 0px; padding: 0px; letter-spacing: .35px; padding: 5px 0px 5px 5px;}
+
+.mainContainer .bottomArea .timebar { background: url(../images/templates/time_bar_bg.gif) 1px 0px repeat-y; padding: 8px 0px; }
+.mainContainer .bottomArea .timebar .minHeight { float: left; width: 25px; }
+.mainContainer .bottomArea .timebar, .mainContainer .bottomArea .timebar p { text-transform: uppercase; font-size: 11px; letter-spacing: 1.25px; }
+.mainContainer .bottomArea .timebar i { text-transform: capitalize; }
+.mainContainer .bottomArea .timebar span { color:#36c; }
+.mainContainer .bottomArea .timebar .col1 { float: left; width: 335px; }
+.mainContainer .bottomArea .timebar .col2 { float: left; width: 235px; }
+.mainContainer .bottomArea .timebar .col3 { float: left; width: 215px; }
+.mainContainer .bottomArea .timebar .col4 { float: left; width: 150px; }
+.mainContainer .footer { padding: 18px 4px 20px 5px; }
+.mainContainer .footer p, .mainContainer .footer a { color: #fffbed; text-transform: uppercase; text-decoration: none; font-size: 10px; letter-spacing: 1.25px; }
+.mainContainer .footer p { margin-bottom: 7px; letter-spacing: .75px; }
+.mainContainer .footer a:hover, .mainContainer .footer p.tan { color: #c0ac83; }
+.mainContainer .footer p.dividerLined { border-top: 4px double #c0ac83; padding-top: 7px; }
+
+.hrtitle
+{font-size: 14px; text-transform: uppercase; margin: 0px 0px 0px 8px; padding: 0px; color:#36c; font-weight: normal;
+}
+
+.auction_title {
+	color: #336600;
+	letter-spacing: 0.5px;
+	font: small-caps 13px Verdana;
+	text-transform: uppercase;
+}
+.auction_location {
+	font-style: italic;
+	color: #333333;
+	font-size: 12px;
+	line-height: 14px;
+}
+
+.smcap {
+	letter-spacing: 0.75px;
+	text-transform: uppercase;
+	font-size: 10px;
+	color: #333333;
+	font-weight: bolder;
+}
+.excluaddy {
+	color: #336600;
+	letter-spacing: 1px;
+	font: small-caps 16px Verdana;
+	text-transform: uppercase;
+}
+.exmember {
+	color: #336600;
+	line-height: 1.7;
+	letter-spacing: 0.75px;
+}
+
+.excluquote {
+	color: #666666;
+	line-height: 1.7;
+	letter-spacing: 0.75px;
+	font-style: italic;
+	
+}
+.orangenolink {color: #a85a2a
+}
+
+.rchoice {
+	font-size: 11px;
+	letter-spacing: 0.25px;
+	line-height: 1.75; 
+}
+
+
+.rchoice2 {
+	line-height: 2; 
+	margin: 0px; 
+	padding: 0px;
+}
+
+
+.rcmenu {
+	line-height: 2;
+	}
+	
+	
+.awards_lists {
+	margin: 5px 0px 0px 165px;
+	}
+
+/*press page*/
+
+h1.press
+{
+    letter-spacing: 1.25px;
+    font-size: 14px;
+    margin: 0px 0px 4px 0px;
+    padding: 0px;
+    color:#36c;
+    font-weight: bold;
+    text-align: center;
+}
+
+.presscontents { padding: 8px 20px 0px 20px; }
+
+
+
+.quote {
+	margin: 5px 25px 0px 25px;
+	}
+	
+.presspubtitle {
+	font-size: 11px;
+	color: #666666
+	}
+	
+.pressquotedate
+{
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: .75px;
+	font-family: verdana;
+}
+	
+	   .date
+{
+ font-size: 11px;
+}
+
+/**/
+
+
+.hrcontroltitle {
+letter-spacing: 1.25px; 
+font: 10px Verdana, Arial, Helvetica, sans-serif; 
+text-transform: uppercase; 
+margin: 0px 0px 8px 8px; 
+padding: 0px; 
+color: #958b6f; 
+font-weight: bold; 
+line-height: 1.5; }
+
+
+.hrcontrolcontent {
+margin: 0px 0px 8px 8px; 
+
+}
+
+.hotelspriv {
+font: Verdana, Times New Roman, Times, serif; 
+color: #323232; 
+line-height: 1.5; 
+margin: 0px; 
+padding: 0px; 
+letter-spacing: .25px;
+}
+
+
+.hcwebpart
+{
+    margin-top: 8px;
+}
+
+.sidebar
+{
+	font-size: 20pt; 
+	font: Verdana;
+	
+	
+}
+
+
+
+

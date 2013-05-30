@@ -1,0 +1,60 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="AuctionFrame.master.cs" Inherits="Auctions_AuctionFrame" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=us-ascii"> 
+<html> 
+<head> 
+<link href="css/Main.css" rel="stylesheet" type="text/css" />
+<title>Andrew Harper</title> 
+</head> 
+<body bgcolor="white"  link="#6A9449" vlink="#6A9449" alink="#6A9449"> 
+<table cellpadding="0" cellspacing="0" width="100%"> 
+  <tr> 
+    <td align="center"><table cellpadding="1" cellspacing="0" width="760" bgcolor="#000000" style="border-collapse: collapse;"> 
+        <tr> 
+          <td><table cellpadding="0" cellspacing="0" width="100%" bgcolor="#FFFFFF"> 
+              <tr align="left" valign="top"> 
+                <td><img src="https://www.andrewharper.com/ImageStore/images/Enews/Auctions-Logo-Header.gif"
+alt="Andrew Harper" vspace="3" border="0" align="top"/></td> 
+              </tr> 
+            </table></td> 
+        </tr> 
+        <tr> 
+          <td><table cellpadding="0" cellspacing="0" width="100%" bgcolor="#333333"> 
+              <tr> 
+                <td align="left">&nbsp;</td> 
+              </tr> 
+            </table></td> 
+        </tr> 
+        <tr> 
+          <td><table cellpadding="15" cellspacing="0" width="100%" bgcolor="#FFFFFF"> 
+              <tr> 
+                <td align="left"> 
+                
+                
+                <form id="form1" runat="server">
+                <div>
+                    <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+                    
+                    </asp:ContentPlaceHolder>
+                </div>
+                </form>
+                
+                </td> 
+              </tr> 
+            </table></td> 
+        </tr> 
+        <tr> 
+          <td><table cellpadding="0" cellspacing="0" width="100%" bgcolor="#333333"> 
+              <tr> 
+                <td align="left">&nbsp;</td> 
+              </tr> 
+            </table></td> 
+        </tr> 
+        <tr bgcolor="#FFFFFF"> 
+          <td></td> 
+        </tr> 
+      </table></td> 
+  </tr> 
+</table> 
+</body> 
+</html>

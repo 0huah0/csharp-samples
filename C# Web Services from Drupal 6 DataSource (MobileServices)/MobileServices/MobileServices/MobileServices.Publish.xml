@@ -1,0 +1,31 @@
+<publishData>
+  <publishTarget publishUrl="c:\local-publish\mobileservices\">
+    <file relUrl="bin/.svn/prop-base/HarperLINQ.dll.svn-base" publishTime="11/14/2011 10:01:52" />
+    <file relUrl="bin/.svn/entries" publishTime="11/23/2011 09:56:14" />
+    <file relUrl="bin/MobileServices.pdb" publishTime="12/07/2011 16:25:29" />
+    <file relUrl="bin/HarperLINQ.pdb" publishTime="12/06/2011 15:33:44" />
+    <file relUrl="Web.config" publishTime="11/18/2011 15:37:55" />
+    <file relUrl="bin/HarperCRYPTO.pdb" publishTime="11/15/2011 09:20:06" />
+    <file relUrl="bin/MySql.Data.dll" publishTime="09/23/2011 21:45:50" />
+    <file relUrl="bin/.svn/prop-base/HarperCRYPTO.pdb.svn-base" publishTime="11/14/2011 10:01:52" />
+    <file relUrl="bin/MobileServices.dll" publishTime="12/07/2011 16:25:29" />
+    <file relUrl="bin/.svn/prop-base/MySql.Data.dll.svn-base" publishTime="11/14/2011 10:01:52" />
+    <file relUrl="bin/.svn/text-base/HarperCRYPTO.dll.svn-base" publishTime="11/23/2011 09:56:11" />
+    <file relUrl="bin/HarperLINQ.dll" publishTime="12/06/2011 15:33:44" />
+    <file relUrl="bin/.svn/all-wcprops" publishTime="11/23/2011 09:56:14" />
+    <file relUrl="MobileServices.asmx" publishTime="11/14/2011 10:01:54" />
+    <file relUrl="bin/.svn/text-base/HarperLINQ.dll.svn-base" publishTime="11/23/2011 09:56:12" />
+    <file relUrl="bin/.svn/text-base/HarperCRYPTO.pdb.svn-base" publishTime="11/23/2011 09:56:12" />
+    <file relUrl="bin/.svn/text-base/MySql.Data.dll.svn-base" publishTime="11/14/2011 10:01:52" />
+    <file relUrl="bin/HarperCRYPTO.dll" publishTime="11/15/2011 09:20:07" />
+    <file relUrl="bin/.svn/prop-base/HarperLINQ.pdb.svn-base" publishTime="11/14/2011 10:01:53" />
+    <file relUrl="bin/.svn/prop-base/HarperCRYPTO.dll.svn-base" publishTime="11/14/2011 10:01:53" />
+    <file relUrl="bin/.svn/text-base/HarperLINQ.pdb.svn-base" publishTime="11/23/2011 09:56:13" />
+  </publishTarget>
+  <publishTarget publishUrl="e:\mobileservices\">
+    <file relUrl="MobileServices.asmx" publishTime="09/26/2011 10:19:51" />
+    <file relUrl="bin/MobileServices.pdb" publishTime="10/11/2011 14:25:54" />
+    <file relUrl="bin/MobileServices.dll" publishTime="10/11/2011 14:25:55" />
+    <file relUrl="Web.config" publishTime="09/26/2011 10:18:47" />
+  </publishTarget>
+</publishData>
